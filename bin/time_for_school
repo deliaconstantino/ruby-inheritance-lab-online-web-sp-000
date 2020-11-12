@@ -25,4 +25,4 @@ jim.last_name = "Charley"
 puts "#{jim.first_name} #{jim.last_name}"
 another_fact = avi.teach
 jim.learn(another_fact)
-puts "Jim just learned '#{jim.knowledge}'"
+puts "Jim just learned '#{jim.knowledge.to_s}'"
